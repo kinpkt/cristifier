@@ -15,8 +15,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <body className={sarabun.className}>
+    <html lang='en' className={sarabun.className}>
+      <body>
         <Header/>
         <div className='mt-3'>
           {children}
