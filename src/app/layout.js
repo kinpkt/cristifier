@@ -5,7 +5,8 @@ import Header from '@/components/Header';
 
 const sarabun = Sarabun({ 
   subsets: ['latin', 'thai'],
-  weight: ['400', '800']
+  weight: ['400', '800'],
+  display: 'swap'
 });
 
 export const metadata = {
